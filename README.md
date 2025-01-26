@@ -1,5 +1,5 @@
 # Hello R!
-This is my first R based analytics . It is a simple R introduction in EDA .
+This is my first R based analytics . It is a simple R introduction in EDA ; based on Martin Van Waerebeke Tuto Questions.
 
 # Walmart Sales Analysis
 

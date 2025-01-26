@@ -24,7 +24,7 @@ This project analyzes Walmart sales data using R, including data preprocessing, 
    ```
 2. Run the script in R:
    ```r
-   source("walmart_analysis.R")
+   source("simple_sales_analysis.R")
    ```
 
 ## Features

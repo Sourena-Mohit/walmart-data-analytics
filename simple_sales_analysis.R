@@ -113,3 +113,12 @@ for (i in 1:length(top_stores)) {
 
 # Add a legend to the plot
 legend("topright", legend = paste("Store", top_stores), col = colors, lty = 1)
+
+#-------------------------------------------
+# Select the relevant columns
+selected_data <- walmart_data[c("Weekly_Sales","Temperature","Fuel_Price","CPI","Unemployment")]
+# compute the correlations
+cor_matrix <- cor(selected_data,use = "complete.obs")
+
+print(cor_matrix)
+pairs(selected_data) #scatterplot matrix
